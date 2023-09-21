@@ -11,7 +11,7 @@ $n=1;
     <title>Laboratorio 4.2</title>
 </head>
 <body>
-    <h1>Factorial de un numero</h1>
+    <h1>Calculo del factorial mediante un valor de entrada</h1>
   <p>Introduzca el numero:</p>
   <form id="Formulario" name="formulario" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
   <input type="text" id="i" name="i" value="<?php echo $i; ?>" />
