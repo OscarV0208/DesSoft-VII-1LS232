@@ -34,5 +34,5 @@ for($n = 0; $n < 20; $n++)
 }
 echo  "El valor mas grande es:".$mayor; 
 echo '<br>';
-echo "ubicado en el vector:" .$vec;
+echo "y esta ubicado en el vector:" .$vec;
 ?>
