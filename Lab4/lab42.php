@@ -29,4 +29,4 @@ do{
 
 while($_REQUEST['i'] > 1);
 echo "El factorial del numero es:" . $n;
-?>
+?> 

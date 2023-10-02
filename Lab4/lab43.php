@@ -14,13 +14,18 @@
 
 $arreglo = array(25,73,48,29,97,28,65,9,14,3,4,82,59,79,17,42,35,11,57,1);
 
+
+echo "<table broder align = 'center'>";
 $n=0;
+echo "<tr>";
 for($n = 0; $n < 20; $n++) 
 {
     echo $arreglo[$n];
     echo '<br>';
     
 }
+echo "</tr>";
+echo "</table>";
 echo '<br>';
 
 $mayor=0;
