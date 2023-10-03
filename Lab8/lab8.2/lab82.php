@@ -12,19 +12,8 @@
         <input type="text" id="i" name="i" value="<?php echo isset($_POST['i']) ? $_POST['i'] : ''; ?>" />
         <input type="submit" id="calcular" name="calcular" value="Factorial">
     </form>
-
+    
     <?php
-    class FactorialCalculator {
-        public function calcularFactorial($numero) {
-            $resultado = 1;
-            while ($numero > 1) {
-                $resultado *= $numero;
-                $numero--;
-            }
-            return $resultado;
-        }
-    }
-
     if (isset($_POST['calcular'])) {
         $inputNumero = isset($_POST['i']) ? (int)$_POST['i'] : 0;
         $calculator = new FactorialCalculator();
