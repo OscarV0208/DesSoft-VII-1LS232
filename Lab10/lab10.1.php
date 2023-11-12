@@ -28,6 +28,7 @@ if(array_key_exists('enviar',$_POST))
 
     $obj_votos= new votos();
     $result = $obj_votos->actualizar_votos($votos1,$votos2);
+    
 
     if($result)
     {
